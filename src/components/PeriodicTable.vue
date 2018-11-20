@@ -175,6 +175,11 @@ export default {
     ...mapMutations(['TOGGLE_DARK_MODE','LANG_SWITCH']),
     openModal(element) {
       if (element.number === '57-71' || element.number === '89-103') {
+        /* sağ yandaki öbekleme özelliğinden ekler */
+        let target = element.number === '57-71' ? 9 : 10
+        this.blur= (this.blur && this.blur==target)?null:target
+
+        this.blurset = this.blur
         return
       }
       this.ModalData = element

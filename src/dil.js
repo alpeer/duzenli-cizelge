@@ -3,7 +3,7 @@ export default {
   en: {
   	UI: {
   		name: 'Periodic Table',
-  		star: 'star',
+  		star: 'Star',
   		loading: 'Loading Periodic Table :)',
   		mode:{
   			dark:'Dark Mode',
